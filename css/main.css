@@ -1,0 +1,49 @@
+
+body {
+  text-transform: uppercase;
+  line-height: 77px;
+}
+.cube {
+  width: -19%;
+  text-align: center;
+  margin: 0 auto;
+  height: 100px;
+
+  -webkit-transition: -webkit-transform .30s;
+  transition: transform .30s;
+
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+/* The two faces of the cube */
+.hola {
+  background-color: pink;
+  -webkit-box-shadow: 0 5px 20px rgba(105, 108, 109, .3), 0 0 8px 5px rgba(208, 223, 226, .4) inset;
+  height:100px;
+}
+.chau {
+  background-color:white;
+  -webkit-box-shadow: 0 5px 20px rgba(105, 108, 109, .3), 0 0 8px 5px rgba(208, 223, 226, .4) inset;
+  height: 100px;
+}
+.hola {
+  -webkit-transform: translateZ(20px);
+  transform: translateZ(20px);
+}
+
+.chau {
+  -webkit-transform: rotateX(-90deg) translateZ(-50px);
+  transform: rotateX(-90deg) translateZ(-50px);
+}
+.cube:hover {
+  -webkit-transform: rotateX(89deg);
+  transform: rotateX(89deg); 
+  }
+/* .navbar-nav {
+    margin: 1px 91px -12px;
+     }*/
+p {
+    margin: -1px 42px 78px;
+}
+* {
